@@ -1,0 +1,93 @@
+.consultation{}
+.consultation__container{
+    background: url("./../../img/1-content-bg.png") no-repeat;
+    background-size: cover;
+    border-radius: 26px;
+    margin-top: 20px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.consult__button1{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+    a{
+        padding: 15px 20px;
+        border: 1px solid #FFF;
+        border-radius: 200px;
+        
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #FFF;
+    }
+    
+}
+.consult__name{
+    margin: auto;
+    text-align: center;
+    max-width: max(1040px);
+    margin-top: 15px;
+    span{
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 63px;
+        letter-spacing: -2px;
+        color: #FFF;
+    }
+}
+.consult__btns{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+    margin-top: 60px;
+    .consult__btn{
+        display: flex;
+        justify-content: center;
+        width: 291px;
+        // align-items: center;
+        column-gap: 10px;
+        padding: 30px 40px;
+        border-radius: 16px;
+        background-color: #fff;
+        cursor: pointer;
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        color: var(--textColor);
+    }
+}
+.statistics__info{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: max(90px);
+    .doctors__count, .medical__care, .reviews, .users{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 25px;
+        min-width: 323px;
+    
+        border: 1px solid rgba($color: #fff, $alpha: 0.5);
+        border-radius: 16px;
+        background-color: rgba($color: #fff, $alpha: 0.15);
+        .lg-size{
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 52px;
+            letter-spacing: -2px;
+            color: #fff;
+        }
+        .sm-size{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21px;
+            color: #fff;
+        }
+    }
+}
+

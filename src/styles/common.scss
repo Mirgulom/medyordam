@@ -1,0 +1,23 @@
+:root{
+    --blue: #0034A9;
+    --blueGradient: linear-gradient(#1EFAF7, #0586EB, #0028E2);
+    --red:#DE303A;
+    --pink:#FF3E68;
+    --darkGrey:#747474;
+    --textColor:#050B2B;
+    --accentColor: #0129E3;
+}
+    
+
+
+body {
+    background-color: #F8F8F8;
+    font-family: 'Poppins', sans-serif;
+    color: var(--textColor);
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 0 85px;
+}
